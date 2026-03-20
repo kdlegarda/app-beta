@@ -40,6 +40,7 @@ $local_data_connection ="
  }
 
  //supa_conection
+ /*
  $supa_conn = pg_connect($supa_data_connection);
  
  if(!$supa_conn){
