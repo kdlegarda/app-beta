@@ -9,6 +9,7 @@
     $p_ssword = $_POST['password'];
     $enc_pass= md5($p_ssword);
     //query to insert into sql
+    $enc_pass = md5($p_asswd);
     $sql = "INSERT INTO users (first_name, last_name, mobilephone, email, password) VALUES 
     ('$f_name', '$l_name', '$m_phone', '$e_mail', '$enc_pass')";
     //execute query
